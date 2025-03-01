@@ -2,7 +2,7 @@
   "name": "@danteasc4/ban-enum",
   "version": "0.2.1",
   "license": "MIT",
-  "exports": "./ban_enum.ts",
+  "exports": "./ban-enum.ts",
   "tasks": {
     "test": "deno test ./ban-enum-test.ts"
   },
@@ -10,6 +10,6 @@
     "@std/assert": "jsr:@std/assert@1"
   },
   "lint": {
-    "plugins": ["./ban_enum.ts"]
+    "plugins": ["./ban-enum.ts"]
   }
 }

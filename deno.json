@@ -13,6 +13,6 @@
     "plugins": ["./ban-enum.ts"]
   },
   "publish": {
-    "include": ["./ban-enum.ts"]
+    "include": ["./README.md", "./ban-enum.ts"]
   }
 }

@@ -11,5 +11,8 @@
   },
   "lint": {
     "plugins": ["./ban-enum.ts"]
+  },
+  "publish": {
+    "include": ["./ban-enum.ts"]
   }
 }

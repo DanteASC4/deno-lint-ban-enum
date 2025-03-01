@@ -1,6 +1,6 @@
 // deno-lint-ignore-file
 import { assertEquals, assertExists } from '@std/assert';
-import banEnum from './ban_enum.ts';
+import banEnum from './ban-enum.ts';
 
 const tSource = `enum Direction1 {
   Up = 'UP',
@@ -88,8 +88,5 @@ Deno.test('banEnum fix test 5', () => {
   const fixes = d.fix as any;
   assertEquals(fixes.length, 1);
   const first = fixes[0];
-  assertEquals(
-    first.text,
-    'type Direction5 = 1 | 2 | 3 | 4;'
-  );
+  assertEquals(first.text, 'type Direction5 = 1 | 2 | 3 | 4;');
 });

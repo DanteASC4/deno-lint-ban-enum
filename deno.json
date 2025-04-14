@@ -1,6 +1,6 @@
 {
   "name": "@danteasc4/ban-enum",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "license": "MIT",
   "exports": "./ban-enum.ts",
   "tasks": {

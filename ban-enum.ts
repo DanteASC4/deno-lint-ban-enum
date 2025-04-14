@@ -61,7 +61,6 @@ const banEnum: Deno.lint.Plugin = {
   rules: {
     'ban-enum': {
       create(ctx) {
-        console.log(ctx);
         return {
           TSEnumDeclaration(node) {
             ctx.report({
